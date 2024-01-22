@@ -16,11 +16,11 @@ package n.lab4;
 
 
 public class storage {
-    static int kolsotr=1;
-    int stnum;
-    public stortype sttype;
-    tovar[] tovars;
-    int tovkol;
+    static int kolsotr=1; //количество сотрудников на каждом складе
+    int stnum; // номер склада
+    public stortype sttype; // тип склада
+    tovar[] tovars; // массив товаров
+    int tovkol; // количество видов товаров
     
     public storage() {
     }
