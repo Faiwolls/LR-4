@@ -19,15 +19,15 @@ import java.util.Scanner;
 public class sobst {
 
    
-    int sobstnum;
-    String sobstname;
-    sobstf sobstforma;
-    stortype sttype;
-    storage[] prodsp;
-    int prodkol;
-    storage[] hossp;
-    int hoskol;
-    int stkol;
+    int sobstnum; // номер собственника
+    String sobstname; // имя собственника
+    sobstf sobstforma; // форма собственности
+    stortype sttype; // тип собственности
+    storage[] prodsp; // массив прод.складов
+    int prodkol; // количество прод.складов
+    storage[] hossp; //массив хоз.складов
+    int hoskol; //количество хоз.складов
+    int stkol; //общее количество складов
 
     public static int sbs_max = 10;
     
